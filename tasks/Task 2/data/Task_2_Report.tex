@@ -21,46 +21,33 @@ I selected the \textbf{MIP 2016} wave from the Mannheim Innovation Panel (2009--
 
 \section*{Step 2: Descriptive Statistics}
 
-Table \ref{tab:desc} shows descriptive statistics for all variables used in the analysis.
+Table \ref{tab:desc} shows descriptive statistics for all variables used in the analysis (regression sample, N = 1,023).
 
 \begin{table}[H]
 \centering
-\caption{Descriptive Statistics (N = 1023)}
+\caption{Descriptive Statistics (N = 1,023)}
 \label{tab:desc}
 \begin{tabular}{lrrrr}
 \toprule
 Variable & Mean & Std. Dev. & Min & Max \\
 \midrule
 \textit{Outcome} & & & & \\
-novor & 0.121 & 0.326 & 0 & 1 \\
+novor & 0.121 & 0.327 & 0 & 1 \\
 \addlinespace
 \textit{Main Explanatory (Index)} & & & & \\
-digitalization (index) & 0.884 & 0.683 & 0 & 3 \\
-\addlinespace
-\textit{Index Components:} & & & & \\
-digia1: interconnection within production & 1.51 & 0.96 & 0 & 3 \\
-digia2: interconnection between units & 1.38 & 0.95 & 0 & 3 \\
-digia3: interconnection with customers & 1.42 & 0.94 & 0 & 3 \\
-digia4: interconnection with suppliers & 1.28 & 0.89 & 0 & 3 \\
-digia5: teleworking & 0.66 & 0.78 & 0 & 3 \\
-digia6: software-based communication & 0.84 & 0.85 & 0 & 3 \\
-digia7: intranet platforms & 0.76 & 0.83 & 0 & 3 \\
-digia8: e-commerce & 0.62 & 0.77 & 0 & 3 \\
-digia9: social media & 0.56 & 0.74 & 0 & 3 \\
-digia10: cloud computing & 0.51 & 0.72 & 0 & 3 \\
-digia11: big data analysis & 0.37 & 0.63 & 0 & 3 \\
+digitalization (index) & 0.884 & 0.665 & 0 & 3 \\
 \addlinespace
 \textit{Controls} & & & & \\
-ost (East Germany) & 0.196 & 0.397 & 0 & 1 \\
+ost (East Germany) & 0.346 & 0.476 & 0 & 1 \\
 bges (employees) & 252.1 & 421.5 & 1 & 3500 \\
-lp (labor productivity) & 79.2 & 46.1 & 12.5 & 350.0 \\
-ex (exports) & 0.531 & 0.499 & 0 & 1 \\
-qual (quality improvement) & 0.318 & 0.189 & 0 & 1 \\
+lp (labor productivity) & 0.260 & 0.175 & 0.006 & 0.600 \\
+ex (total exports) & 3.793 & 17.701 & 0 & 315.07 \\
+qual (quality improvement) & 0.138 & 0.345 & 0 & 1 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-About 12.1\% of firms introduced novel innovations. The digitalization index (average of 11 digital technology usage variables) has a mean of 0.88 on a 0-3 scale. Most commonly adopted technologies are digital interconnection within production (1.51) and with customers (1.42). Least adopted are big data analysis (0.37) and cloud computing (0.51).
+About 12.1\% of firms introduced novel innovations. The digitalization index (average of 11 digital technology usage variables) has a mean of 0.88 on a 0-3 scale. For control variables: 34.6\% of firms are in East Germany, average firm size is 252 employees, average labor productivity is 0.26, average exports are 3.79 (highly skewed: 59.7\% have zero exports, mean = 9.42 for exporters), and 13.8\% of firms achieved quality improvements through process innovations.
 
 \section*{Step 3: Key Variables}
 
@@ -97,9 +84,9 @@ About 12.1\% of firms introduced novel innovations. The digitalization index (av
     
     \item \textbf{East/West Germany location} -- Regional location of the firm. (Western Germany = 0, Eastern Germany = 1). \textbf{Name in dataset:} \texttt{ost}
     
-    \item \textbf{Export activity (2016)} -- Binary indicator for whether the firm exported in 2016. (No exports = 0, Exports = 1). \textbf{Name in dataset:} \texttt{ex}
+    \item \textbf{Total exports (2016)} -- Total amount exported in 2016 (standardized units). This is a continuous variable where 59.7\% of firms have zero exports and 40.3\% have positive exports (mean = 9.42 for exporters, max = 315.07). \textbf{Name in dataset:} \texttt{ex}
     
-    \item \textbf{Labor productivity} -- Labor productivity measured as output per worker. \textbf{Name in dataset:} \texttt{lp}
+    \item \textbf{Labor productivity} -- Labor productivity measured as output per worker (range: 0.006 to 0.600). \textbf{Name in dataset:} \texttt{lp}
     
     \item \textbf{Quality improvement by process innovations} -- Indicator for whether the firm achieved quality improvements through process innovations. (No = 0, Yes = 1). \textbf{Name in dataset:} \texttt{qual}
     
