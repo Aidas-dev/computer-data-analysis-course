@@ -1,0 +1,16 @@
+# Core data manipulation
+pandas>=2.0
+numpy>=1.24
+
+# Data visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Financial data download
+yfinance>=0.2
+
+# Statistical analysis
+statsmodels>=0.14
+
+# Jupyter notebook
+jupyter>=1.0
