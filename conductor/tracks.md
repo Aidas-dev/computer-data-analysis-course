@@ -4,5 +4,7 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
+## Archived Tracks
+
 - [x] **Track: Complete Task 3 data analysis notebook**
-  *Link: [./task3_20260328/](./task3_20260328/)*
+  *Link: [./archive/task3_20260328/](./archive/task3_20260328/)*
