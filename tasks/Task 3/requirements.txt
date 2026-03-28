@@ -1,0 +1,16 @@
+# Task 3 - AI ETFs Analysis Dependencies
+# Python 3.14+ compatible
+
+# Core data manipulation
+pandas>=2.0
+numpy>=1.24
+
+# Data visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Yahoo Finance data fetching
+yfinance>=0.2.0
+
+# Time series analysis
+statsmodels>=0.14

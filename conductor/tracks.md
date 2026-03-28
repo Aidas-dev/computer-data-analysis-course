@@ -4,5 +4,5 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-- [ ] **Track: Complete Task 3 data analysis notebook**
+- [x] **Track: Complete Task 3 data analysis notebook**
   *Link: [./task3_20260328/](./task3_20260328/)*
