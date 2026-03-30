@@ -1,0 +1,16 @@
+# Task-specific requirements for Economics RBC Model Task
+# RBC Model Analysis with World Bank Data
+
+# World Bank API access
+wbgapi>=1.0
+
+# Core data manipulation
+pandas>=2.0
+numpy>=1.24
+
+# Data visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Statistical analysis and HP filter
+statsmodels>=0.14
