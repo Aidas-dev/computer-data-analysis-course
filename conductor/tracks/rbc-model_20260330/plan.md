@@ -13,7 +13,7 @@
     - [x] Verify all required indicator codes are available
 - [x] Task: Conductor - User Manual Verification 'Setup and Data Retrieval' (Protocol in workflow.md)
 
-## Phase 2: Cyclical Volatility Analysis [checkpoint: c14babb]
+## Phase 2: Cyclical Volatility Analysis [checkpoint: 509996f]
 - [x] Task: Implement Section 1.1 - Plot Raw Series
     - [x] Download data for US, Argentina, Lithuania
     - [x] Transform to log values
