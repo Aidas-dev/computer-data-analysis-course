@@ -1,0 +1,8 @@
+{
+  "track_id": "rbc-model_20260330",
+  "type": "feature",
+  "status": "new",
+  "created_at": "2026-03-30T00:00:00Z",
+  "updated_at": "2026-03-30T00:00:00Z",
+  "description": "Solving the Economics-RBC-Model-Task, following the instructions set in the pdf, using worldbank api python package for the data retrieval, we will do it in jupyter notebook, using python 3.14"
+}
