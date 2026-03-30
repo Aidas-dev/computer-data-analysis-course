@@ -13,23 +13,23 @@
     - [x] Verify all required indicator codes are available
 - [x] Task: Conductor - User Manual Verification 'Setup and Data Retrieval' (Protocol in workflow.md)
 
-## Phase 2: Cyclical Volatility Analysis
-- [ ] Task: Implement Section 1.1 - Plot Raw Series
-    - [ ] Download data for US, Argentina, Lithuania
-    - [ ] Transform to log values
-    - [ ] Create comparative plots for all three countries
-    - [ ] Add markdown analysis: smoothest growth path, largest fluctuations
-- [ ] Task: Implement Section 1.2 - Apply HP Filter
-    - [ ] Apply HP filter with λ=100 to extract cyclical components
-    - [ ] Plot cyclical GDP for each country
-    - [ ] Add markdown analysis: identify downturns/booms, compare Lithuania vs US
-- [ ] Task: Implement Section 1.3 - Compute RBC-style Moments
-    - [ ] Calculate standard deviations for all cycles
-    - [ ] Compute relative volatilities
-    - [ ] Compute correlations with output
-    - [ ] Create summary table
-    - [ ] Add markdown analysis answering PDF questions
-- [ ] Task: Conductor - User Manual Verification 'Cyclical Volatility Analysis' (Protocol in workflow.md)
+## Phase 2: Cyclical Volatility Analysis [checkpoint: pending]
+- [x] Task: Implement Section 1.1 - Plot Raw Series
+    - [x] Download data for US, Argentina, Lithuania
+    - [x] Transform to log values
+    - [x] Create comparative plots for all three countries
+    - [x] Add markdown analysis: smoothest growth path, largest fluctuations
+- [x] Task: Implement Section 1.2 - Apply HP Filter
+    - [x] Apply HP filter with λ=100 to extract cyclical components
+    - [x] Plot cyclical GDP for each country
+    - [x] Add markdown analysis: identify downturns/booms, compare Lithuania vs US
+- [x] Task: Implement Section 1.3 - Compute RBC-style Moments
+    - [x] Calculate standard deviations for all cycles
+    - [x] Compute relative volatilities
+    - [x] Compute correlations with output
+    - [x] Create summary table
+    - [x] Add markdown analysis answering PDF questions
+- [x] Task: Conductor - User Manual Verification 'Cyclical Volatility Analysis' (Protocol in workflow.md)
 
 ## Phase 3: Total Factor Productivity Analysis
 - [ ] Task: Implement Section 2.1 - Construct TFP (US Only)
