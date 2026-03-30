@@ -32,16 +32,16 @@
 - [x] Task: Conductor - User Manual Verification 'Cyclical Volatility Analysis' (Protocol in workflow.md)
 
 ## Phase 3: Total Factor Productivity Analysis
-- [ ] Task: Implement Section 2.1 - Construct TFP (US Only)
-    - [ ] Download US-specific labor data
-    - [ ] Compute employment series: N_t = labor force × (employment ratio / 100)
-    - [ ] Construct capital stock using perpetual inventory method (δ=0.06)
-    - [ ] Compute TFP using Cobb-Douglas formula (α=1/3)
-- [ ] Task: Implement Section 2.2 - TFP Cyclicality
-    - [ ] Apply HP filter to ln(Y) and ln(A)
-    - [ ] Plot cyclical GDP and TFP together
-    - [ ] Compute standard deviations and correlation
-    - [ ] Add markdown analysis: TFP procyclicality and RBC interpretation
+- [~] Task: Implement Section 2.1 - Construct TFP (US Only)
+    - [~] Download US-specific labor data
+    - [~] Compute employment series: N_t = labor force × (employment ratio / 100)
+    - [~] Construct capital stock using perpetual inventory method (δ=0.06)
+    - [~] Compute TFP using Cobb-Douglas formula (α=1/3)
+- [~] Task: Implement Section 2.2 - TFP Cyclicality
+    - [~] Apply HP filter to ln(Y) and ln(A)
+    - [~] Plot cyclical GDP and TFP together
+    - [~] Compute standard deviations and correlation
+    - [~] Add markdown analysis: TFP procyclicality and RBC interpretation
 - [ ] Task: Conductor - User Manual Verification 'Total Factor Productivity Analysis' (Protocol in workflow.md)
 
 ## Phase 4: Final Review and Documentation

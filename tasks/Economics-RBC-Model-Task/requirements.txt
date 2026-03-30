@@ -14,3 +14,7 @@ seaborn>=0.12
 
 # Statistical analysis and HP filter
 statsmodels>=0.14
+
+# Jupyter notebook execution
+jupyter>=1.0
+nbclient>=0.10
