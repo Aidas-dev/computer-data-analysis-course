@@ -17,4 +17,4 @@ statsmodels>=0.14
 
 # Jupyter notebook execution
 jupyter>=1.0
-nbclient>=0.10
+nbclient>=0.1
