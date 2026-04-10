@@ -31,7 +31,7 @@
     - [x] Add markdown analysis answering PDF questions
 - [x] Task: Conductor - User Manual Verification 'Cyclical Volatility Analysis' (Protocol in workflow.md)
 
-## Phase 3: Total Factor Productivity Analysis [checkpoint: pending]
+## Phase 3: Total Factor Productivity Analysis [checkpoint: 850666b]
 - [x] Task: Implement Section 2.1 - Construct TFP (US Only)
     - [x] Download US-specific labor data
     - [x] Compute employment series: N_t = labor force × (employment ratio / 100)
