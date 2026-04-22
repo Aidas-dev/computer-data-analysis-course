@@ -6,7 +6,10 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ## Active Tracks
 
-- [~] **Track: Solving the Economics-RBC-Model-Task with World Bank API data retrieval**
+- [~] **Track: Task 4 - Reinhart Rogoff Analysis and Replication**
+  *Link: [./tracks/reinhart-rogoff-20260422/](./tracks/reinhart-rogoff-20260422/)*
+
+- [ ] **Track: Solving the Economics-RBC-Model-Task with World Bank API data retrieval**
   *Link: [./tracks/rbc-model_20260330/](./tracks/rbc-model_20260330/)*
 
 ---

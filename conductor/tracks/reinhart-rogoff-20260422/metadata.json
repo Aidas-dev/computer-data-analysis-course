@@ -1,0 +1,10 @@
+{
+  "track_id": "reinhart-rogoff-20260422",
+  "type": "analysis",
+  "status": "active",
+  "created_at": "2026-04-22T00:00:00Z",
+  "updated_at": "2026-04-22T00:00:00Z",
+  "description": "Task 4 - Reinhart Rogoff 2010 replication and critique analysis. Replicate RR (2010), analyze Herndon et al. (2014) critique, show correct results, reflect on policy implications.",
+  "task_number": 4,
+  "materials": ["tasks/Task 4/data/CDA_2026_Task4.md", "tasks/Task 4/data/Reinhart_Rogoff_Growth_in_a_Time_of_Debt_2010.md", "tasks/Task 4/data/Does High Public Debt Consistently Stifle Economic Growth - A Critique of Reinhart and Rogoff.md"]
+}

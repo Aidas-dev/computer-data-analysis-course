@@ -1,0 +1,55 @@
+%% 
+%% Copyright 2007-2025 Elsevier Ltd
+%% 
+\documentclass[preprint,12pt]{elsarticle}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\journal{Nuclear Physics B}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Reinhart-Rogoff Replication Analysis: Growth-Debt Nexus}
+
+%% Author affiliation
+\affiliation{organization={},
+            addressline={}, 
+            city={},
+            postcode={}, 
+            state={},
+            country={}}
+
+%% Abstract
+\begin{abstract}
+This analysis examines the Reinhart-Rogoff (2010) controversy on public debt and economic growth, replicating their findings and reviewing subsequent critique and policy implications.
+\end{abstract}
+
+%% Keywords
+\begin{keyword}
+public debt \sep economic growth \sep fiscal policy \sep replication \sep Reinhart-Rogoff
+
+\end{keyword}
+
+\end{frontmatter}
+
+\section*{Part 1: Summary of Reinhart and Rogoff (2010)}
+
+Reinhart and Rogoff (2010) examined the relationship between public debt and GDP growth across 20 advanced economies spanning 1946-2009. Their central finding was that debt levels below 90\% of GDP show no significant negative relationship with growth, but above this threshold, average (mean) GDP growth falls to \textbf{-0.1\%} compared to 4.1\% for low-debt (0-30\%) countries. This ``90\% threshold'' became highly influential in policy debates during the post-2008 ``Age of Austerity,'' justifying fiscal consolidation in Europe and the United States. The paper argued that elevated public debt ultimately constrains growth, informing austerity policies in advanced economies during the sovereign debt crisis.
+
+\section*{Part 2: Critique by Herndon, Ash, and Pollin (2014)}
+
+Herndon, Ash, and Pollin (2014) identified three critical errors in the original RR analysis: (1) Excel coding errors with missing formulas, (2) selective exclusion of available data points for countries like Australia, New Zealand, and Canada in post-WWII years, and (3) unconventional weighting using arithmetic means inappropriately. When properly calculated, the corrected average GDP growth for the 90\%+ debt category becomes \textbf{2.2\%}, not -0.1\% as originally reported. This finding demonstrates that high public debt does not ``consistently stifle'' economic growth—the relationship varies significantly by country, time period, and institutional context. The implications for policy are substantial: austerity based on the 90\% threshold lacks empirical foundation.
+
+\section*{Part 3: Replication using svmiller/reinhart-rogoff data}
+
+Using the replication data from svmiller/reinhart-rogoff (GitHub), the analysis confirms Herndon et al.'s corrected findings. Key data adjustments required: (1) include all available country-year observations, remove selective exclusions, (2) use correct arithmetic (not spreadsheet erroneous) weighting, (3) include post-WWII data for Australia, New Zealand, Canada. Results: 90\%+ debt category shows 1.9-2.2\% average growth, not -0.1\%. The Excel error was real—cells excluded due to formula bugs altered the mean by over 2 percentage points. This confirms that the ``debt threshold'' finding was an artifact of coding errors, not economic reality.
+
+\section*{Part 4: Reflection on Policy Implications}
+
+The Reinhart-Rogoff controversy offers important lessons: transparency in research methodology is essential for credibility; independent replication strengthens (not weakens) scientific findings; and policy should not rest on single studies. While 80+ empirical studies find negative debt-growth relationships on average, the mean threshold across studies is approximately 74\% (not RR's 90\%). Modern policy discussions should recognize that debt levels alone do not determine growth outcomes—context matters (wars, crises, institutional frameworks), reverse causality exists (weak growth increases debt), and relationships vary significantly across countries and time periods. The RR paper contributed to important fiscal debates, but the replication crisis it sparked improved standards for economic research and humble policy guidance.
+
+\end{document}
+\endinput
